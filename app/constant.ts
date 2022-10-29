@@ -1,0 +1,9 @@
+import { SEVERITY_ENUMS } from '../src/types';
+// 规约等级枚举值
+export const SEVERITY_DATA_SOURCE = [
+  {label: SEVERITY_ENUMS.MINOR, value: SEVERITY_ENUMS.MINOR },
+  {label: SEVERITY_ENUMS.INFO, value: SEVERITY_ENUMS.INFO },
+  {label: SEVERITY_ENUMS.MAJOR, value: SEVERITY_ENUMS.MAJOR },
+  {label: SEVERITY_ENUMS.CRITICAL, value: SEVERITY_ENUMS.CRITICAL },
+  {label: SEVERITY_ENUMS.BLOCKER, value: SEVERITY_ENUMS.BLOCKER },
+]
